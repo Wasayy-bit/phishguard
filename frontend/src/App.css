@@ -1,0 +1,16 @@
+/* Reset legacy CRA styles — PhishGuard uses Tailwind + index.css */
+.pg-scanline {
+  animation: fullCardScan 6s ease-in-out infinite;
+}
+
+@keyframes fullCardScan {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(400%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
