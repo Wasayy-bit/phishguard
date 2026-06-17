@@ -36,39 +36,6 @@ PhishGuard is an advanced cyber security intelligence platform designed to detec
 - **Cloud Infrastructure:** MongoDB Atlas (Cloud-Native Shared Cluster Free Tier)
 
 ---
-
-## 📦 Directory Structure
-
-```text
-PhishGuard/
-├── README.md               # Central project system architecture manual
-├── backend/
-│   ├── app/                # Application routes, controllers, and core logic
-│   ├── plugins/            # Webpack and runtime configuration hooks
-│   ├── server.py           # FastAPI entry-point & automatic cloud seeding
-│   └── requirements.txt    # Python ecosystem backend dependencies
-├── frontend/
-│   ├── public/             # System assets, static media, and Favicon configuration
-│   ├── src/
-│   │   ├── components/     # Reusable global interface components
-│   │   ├── constants/      # Centralized end-to-end testing element registries
-│   │   ├── context/        # React global state management contexts
-│   │   ├── hooks/          # Custom operational React hooks
-│   │   ├── lib/            # Encapsulated network layer configurations (Axios config)
-│   │   ├── pages/          # Complete view boundaries (Dashboard, Login, Scan UI)
-│   │   ├── App.css         # Custom core style overrides
-│   │   ├── App.jsx         # Root layout configuration and routing layout
-│   │   └── main.jsx        # Application root DOM initialization bridge
-│   ├── components.json     # Declarative schema definition for system UI layout
-│   ├── craco.config.js     # Webpack optimization and path alias mappings
-│   ├── eslint.config.js    # Strict engineering code quality standards config
-│   ├── index.html          # Viewport document wrapper template
-│   ├── package.json        # Frontend runtime script registry and packages
-│   ├── postcss.config.js   # Cascading stylesheets compilation setup
-│   ├── tailwind.config.js  # Token design overrides for fluid component styling
-│   └── vite.config.js      # Vite compilation engine environment setup
-└── Screenshots/            # System deployment visual evaluation documentation
-
 ⚙️ Runtime System Initialization
 
 1. Backend Engine Launch
@@ -102,4 +69,36 @@ Section: Y9
 
 🌐 Live Demo & Deliverables
 
-```
+
+## 📦 Directory Structure
+
+```text
+PhishGuard/
+├── README.md               # Central project system architecture manual
+├── backend/
+│   ├── app/                # Application routes, controllers, and core logic
+│   ├── plugins/            # Webpack and runtime configuration hooks
+│   ├── server.py           # FastAPI entry-point & automatic cloud seeding
+│   └── requirements.txt    # Python ecosystem backend dependencies
+├── frontend/
+│   ├── public/             # System assets, static media, and Favicon configuration
+│   ├── src/
+│   │   ├── components/     # Reusable global interface components
+│   │   ├── constants/      # Centralized end-to-end testing element registries
+│   │   ├── context/        # React global state management contexts
+│   │   ├── hooks/          # Custom operational React hooks
+│   │   ├── lib/            # Encapsulated network layer configurations (Axios config)
+│   │   ├── pages/          # Complete view boundaries (Dashboard, Login, Scan UI)
+│   │   ├── App.css         # Custom core style overrides
+│   │   ├── App.jsx         # Root layout configuration and routing layout
+│   │   └── main.jsx        # Application root DOM initialization bridge
+│   ├── components.json     # Declarative schema definition for system UI layout
+│   ├── craco.config.js     # Webpack optimization and path alias mappings
+│   ├── eslint.config.js    # Strict engineering code quality standards config
+│   ├── index.html          # Viewport document wrapper template
+│   ├── package.json        # Frontend runtime script registry and packages
+│   ├── postcss.config.js   # Cascading stylesheets compilation setup
+│   ├── tailwind.config.js  # Token design overrides for fluid component styling
+│   └── vite.config.js      # Vite compilation engine environment setup
+└── Screenshots/            # System deployment visual evaluation documentation
+
